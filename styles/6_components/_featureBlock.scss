@@ -1,0 +1,41 @@
+.c-featureBlock{
+
+}
+
+.c-featureBlock__desc{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.c-featureBlock__head{
+	text-align: left;
+	margin-bottom: $unit--6;
+	
+	span{
+		@extend %ac-display1;
+		font-weight: 600;
+		border-bottom: calc(#{$unit--1}*0.75) solid $color--greenBright;
+		padding: $unit--2 0;
+	}
+}
+
+.c-featureBlock__text{
+	text-align: left;
+	@extend %ac-text2;
+	margin-top: $unit--2;
+}
+
+.c-featureBlock__image{
+	width: 50%;
+	max-height: 38vw;
+	object-fit: cover;
+}
+
+
+@media screen and (min-width: $tablet--sm){
+
+	.c-featureBlock__desc{
+		padding: 0 8%;
+	}
+}

@@ -1,0 +1,16 @@
+.c-subNav{
+	width: 100%;
+	display: flex;
+	padding: $unit--2 0;
+
+	background-color: $color--greyLighter;
+
+	> *{
+		display: flex;
+		align-items: center;
+	}
+}
+
+.c-subNav__button + *{
+	margin-left: $unit--4;
+}

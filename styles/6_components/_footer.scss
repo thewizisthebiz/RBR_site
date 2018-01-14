@@ -1,0 +1,10 @@
+.c-footerSocialIcon{
+	width: 6rem;
+	display: none;
+}
+
+.c-footerContactStrip{
+	min-height: calc(#{$unit--1}*20);
+	background-color: $color--offBlack;
+	width: 100%;
+}

@@ -1,0 +1,107 @@
+.l-oneCol--960{
+	width: 100%;
+	max-width: calc((960 / 16) * 1rem);
+	margin: 0 auto;
+}
+
+.l-oneCol--1440{
+	width: 100%;
+	max-width: calc((1440 / 16) * 1rem);
+	margin: 0 auto;
+}
+
+.l-twoCol{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	> *{
+		flex-basis: 100%;
+		width: 100%;
+	}
+}
+
+.l-threeCol{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	> *{
+		flex-basis: 100%;
+		width: 100%;
+	}
+}
+
+.l-fourCol{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	> *{
+		flex-basis: 100%;
+		width: 100%;
+	}	
+}
+
+.l-twoCol--fortySixty{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	> *{
+		flex-basis: 100%;
+		width: 100%;
+	}	
+}
+
+.rtl{
+	flex-direction: column;
+}
+
+@media screen and (min-width: $tablet--sm){
+	.l-twoCol{
+		flex-direction: row;
+
+		> * {
+			flex-basis: 50%;
+			width: 50%;
+		}
+	}
+
+	.l-threeCol{
+
+		> *{
+			flex-basis: 33.3333%;
+			width: 33.3333%;
+		}
+	}
+
+	.l-fourCol{
+
+		> *{
+			flex-basis: 25%;
+			width: 25%;
+		}	
+	}
+
+	.l-twoCol--fortySixty{
+
+		> *:nth-child(1){
+			flex-basis: 40%;
+			width: 40%;
+		}	
+
+		> *:nth-child(2){
+			flex-basis: 60%;
+			width: 60%;
+		}	
+	}
+
+	.rtl{
+		flex-direction: row-reverse;
+	}
+}

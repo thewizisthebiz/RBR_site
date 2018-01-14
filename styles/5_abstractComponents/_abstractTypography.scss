@@ -1,0 +1,28 @@
+%ac-display4{
+	font-size: $unit--12;
+	line-height: calc(#{$unit--1}*13);
+	font-weight: 600;
+}
+
+%ac-display3{
+	font-size: $unit--7;
+	line-height: $unit--12;
+	font-weight: 600;
+}
+
+%ac-display2{
+	font-size: $unit--6;
+	line-height: $unit--7;
+	font-weight: 400;
+}
+
+%ac-display1{
+	font-size: $unit--4;
+	line-height: $unit--5;
+	font-weight: 600;
+}
+
+%ac-text2{
+	font-size: 1.125rem;
+	line-height: $unit--4;
+}

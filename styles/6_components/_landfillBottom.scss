@@ -1,0 +1,38 @@
+.c-landfillBottom{
+	margin-top: calc(#{$unit--12}*3);
+	position: relative;
+	width: 100%;
+}
+
+.c-landfillBottom__image{
+	position: relative;
+	bottom: 0;
+
+	width: 100%;
+}
+
+.c-landfillBottom__color{
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+
+	width: 100%;
+	height: 60%;
+	background-color: $color--greenPale;
+}
+
+.c-landfillBottom__feedText{
+	position: absolute;
+	bottom: $unit--6;
+	z-index: 1;
+
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+
+	span{
+		padding: $unit--1;
+		background-color: $color--white;
+		border-bottom: 3px solid $color--greenBright;
+	}
+}

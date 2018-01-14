@@ -1,0 +1,13 @@
+.c-onBoarding{
+	border-top: $unit--1 solid $color--greenBright;
+	padding: calc(#{$unit--1}*25) 8% calc(#{$unit--1}*30) 8%;
+}
+
+.c-onBoarding__text{
+	max-width: 75%;
+	margin-bottom: $unit--2;
+}
+
+.c-onBoarding__button{
+	margin-top: $unit--4;
+}

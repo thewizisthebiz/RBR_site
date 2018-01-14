@@ -1,0 +1,19 @@
+.swiper-container{
+	margin: calc(#{$unit--1}*6) 0 calc(#{$unit--1}*20) 0;
+}
+
+.swiper-button-prev, .swiper-button-next{
+	visibility: hidden;
+}
+
+.swiper-button-prev{
+}
+
+.swiper-button-next{
+}
+
+@media screen and (min-width: $tablet--sm){
+	.swiper-button-prev, .swiper-button-next{
+		visibility: visible;
+	}	
+}

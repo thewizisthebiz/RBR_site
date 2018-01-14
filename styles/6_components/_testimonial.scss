@@ -1,0 +1,16 @@
+.c-testimonial{
+	margin: 8%;
+	background-color: $color--greenPale;
+	padding: calc(#{$unit--12}*2) 8%;
+}
+
+.c-testimonial__text{
+	font-size: 1.25rem;
+	line-height: $unit--6;
+}
+
+.c-testimonial__attr{
+	font-weight: 700;
+	margin-top: $unit--6;
+}
+

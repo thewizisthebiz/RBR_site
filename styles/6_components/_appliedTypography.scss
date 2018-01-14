@@ -1,0 +1,24 @@
+.c-homeDisplay4{
+	@extend %ac-display4;
+	padding: $unit--9 0;
+	border-bottom: calc(#{$unit--1} * 1.5) solid $color--greenBright;
+}
+
+.c-homeDisplay2{
+	@extend %ac-display2;
+	margin: $unit--9 0;
+}
+
+.c-homeDisplay1{
+	@extend %ac-display1;
+	padding-bottom: $unit--1;
+	border-bottom: calc(#{$unit--1}*0.75) solid $color--greenBright;
+	display: inline-block;
+}
+
+.c-bigIntro{
+	@extend %ac-display3;
+	padding: 0 0 $unit--4 0;
+	margin: calc(#{$unit--6}*3) 0;
+	border-bottom: $unit--1 solid $color--greenBright;
+}
