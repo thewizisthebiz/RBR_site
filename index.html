@@ -11,6 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/application.css">
         <link rel="stylesheet" href="styles/swiper.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -30,16 +32,37 @@
                         <img class="c-topNav__logoImage" src="./img/rustbeltriders_home.png" />
                     </a>
                 </li>
-                <li class="c-topNav__item">Services</li>
-                <li class="c-topNav__item">Products</li>
+                <li class="c-navDropdown">
+                    <p class="c-topNav__item">Services <i class="material-icons">keyboard_arrow_down</i><p>
+                    <ul class="c-navDropdown__menu" data-id="services">
+                        <li class="c-navDropdown__menuItem">
+                            <a class="c-navDropdown__menuLink" href="#">hello</a>
+                        </li>
+                        <li class="c-navDropdown__menuItem">
+                            <a class="c-navDropdown__menuLink" href="#">again</a>
+                        </li>
+                        <li class="c-navDropdown__menuItem">
+                            <a class="c-navDropdown__menuLink" href="#">other thing here</a>
+                        </li>                        
+                    </ul>
+                </li>
+                <li class="c-navDropdown">
+                    <p class="c-topNav__item">Products <i class="material-icons">keyboard_arrow_down</i><p>
+                    <ul class="c-navDropdown__menu" style="display: none;" data-id="products">
+                        <li>hello</li>
+                        <li>again</li>
+                        <li>onemore</li>
+                    </ul>
+                </li>
                 <li class="c-topNav__item">About</li>
                 <li class="c-topNav__item">Contact</li>
                 <li class="c-topNav__item"><a class="c-buttonShape--orange">Free Waste Audit</a></li>
             </ul>
         </nav>
         <main class="l-oneCol--960">
-            <h1 class="c-homeDisplay4">Transform foodwaste back into food.</h1>
-            <h2 class="c-homeDisplay2">We're closing the loop of local food through our compost collection services and the production of living soil.</h2>
+            <h1 class="c-homeDisplay4">Let's transform foodwaste back into food.</h1>
+            <h2 class="c-homeDisplay2">We're closing the loop of local food through compost collection services and the production of living soil.</h2>
+            <div class="c-homeLists">
             <section class="l-twoCol">
                 <ul class="c-homeLinkList">
                     <li>
@@ -96,7 +119,8 @@
                         </a>
                     </li>
                 </ul>
-            </section>           
+            </section>  
+            </div>         
         </main>
         <footer>
             <section class="c-landfillBottom">
@@ -104,14 +128,31 @@
                 <div class="c-landfillBottom__color"></div>
                 <h5 class="c-landfillBottom__feedText"><span>Feed People. Not Landfills.</span></h5>
             </section>
-            <section class="c-footerContactStrip">
-                <ul>
-                    <li>
-                        <a>
-                            <img class="c-footerSocialIcon" src="./img/social_tw.png"/>
+            <section class="c-footerContact">
+                <div class="l-oneCol--960">
+                <ul class="c-footerSocialList">
+                    <li class="c-footerSocialList__socialIcon">
+                        <a target="_blank" href="https://twitter.com/rustbeltriders">
+                            <img class="c-footerSocialIcon" src="./img/rustbelt_riders_social_tw.svg"/>
+                        </a>
+                    </li>
+                    <li class="c-footerSocialList__socialIcon">
+                        <a target="_blank" href="https://instagram.com/rustbeltriders">
+                            <img class="c-footerSocialIcon" src="./img/rustbelt_riders_social_fb.svg"/>
+                        </a>
+                    </li>
+                    <li class="c-footerSocialList__socialIcon">
+                        <a target="_blank" href="https://www.facebook.com/RustBeltRidersCLE">
+                            <img class="c-footerSocialIcon" src="./img/rustbelt_riders_social_ig.svg"/>
                         </a>
                     </li>
                 </ul>
+                <ul class="c-footerPhoneEmailStreet">
+                    <li class="c-footerPhoneEmailStreet__item"><span>Phone</span> 216-800-4651</li>
+                    <li class="c-footerPhoneEmailStreet__item"><span>Email</span> info@rustbeltriders.com</li>
+                    <li class="c-footerPhoneEmailStreet__item"><span>Street</span> 5401 Hamilton Ave. Cleveland, OH 44114</li>
+                </ul>
+                </div>
             </section>
         </footer>
 
