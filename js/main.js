@@ -22,4 +22,11 @@ $(document).ready(function() {
 		  $('main').addClass('topLocked');
 		}
 	});
+
+	$('[data-nav]').click(function(){
+		var whichNav = $(this).attr('data-nav');
+		$("[data-nav=" + whichNav + "]").find("[data-dropdown=" + whichNav + "]").each(function (i) {
+			$(this).toggleClass("show");
+		});
+	});
 });

@@ -24,14 +24,15 @@
 	display: block;
 }
 
-.c-navDropdown__menuItem{
+.c-navDropdown__link{
+	font-size: 0.875rem;
+	display: block;
 	cursor: pointer;
-	margin: $unit--2;
 	white-space: nowrap;
-	min-width: 100%;
 	width: 100%;
-}
+	padding: $unit--2;
 
-.c-navDropdown__menuLink{
-	width: 100%;
+	&:hover{
+		background-color: $color--greenPale;
+	}
 }
