@@ -23,10 +23,19 @@ $(document).ready(function() {
 		}
 	});
 
-	$('[data-nav]').click(function(){
-		var whichNav = $(this).attr('data-nav');
-		$("[data-nav=" + whichNav + "]").find("[data-dropdown=" + whichNav + "]").each(function (i) {
-			$(this).toggleClass("show");
-		});
+//	var whichNav
+
+	$('[data-nav]').on('click', (event) => {
+	  $(event.target).siblings('[data-dropdown]')
+	    .toggleClass('show');
+	});
+
+	$(document).click(function(e) {
+	  $('[data-nav]')
+	    .not($('[data-nav]').has($(e.target)))
+	    .children('[data-dropdown]')
+	    .removeClass('show');
 	});
 });
+
+
