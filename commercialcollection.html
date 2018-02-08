@@ -11,6 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/swiper.css">
         <link rel="stylesheet" href="styles/application.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -19,24 +21,63 @@
             <span class="c-topNav__toggleLine"></span>
             <span class="c-topNav__toggleLine last"></span>
         </div>
-        <nav class="c-topNav topLocked">
+        <nav class="c-topNav">
             <ul class="l-oneCol--1440 c-topNav__list">
                 <li class="c-topNav__logoWrap">
-                    <a href="#">
+                    <a href="./index.html">
                         <img class="c-topNav__logoImage" src="./img/rustbeltriders_home.png" />
                     </a>
+                </li>             
+                <li class="c-navDropdown" data-nav="services">
+                    <p class="c-topNav__item">Services <i class="material-icons">keyboard_arrow_down</i><p>
+                    <ul class="c-navDropdown__menu" data-dropdown="services">
+                        <li>
+                            <a class="c-navDropdown__link" href="./commercialcollection.html">Commercial Collection</a>
+                        </li>
+                        <li>
+                            <a class="c-navDropdown__link" href="./curbside.html">Curbside Pick-up</a>
+                        </li>
+                        <li>
+                            <a class="c-navDropdown__link" href="./eventsandeducation.html">Events &amp; Education</a>
+                        </li>                        
+                    </ul>
                 </li>
-                <li class="c-topNav__item">Services</li>
-                <li class="c-topNav__item">Products</li>
-                <li class="c-topNav__item">About</li>
+                <li class="c-navDropdown" data-nav="products">
+                    <p class="c-topNav__item">Products <i class="material-icons">keyboard_arrow_down</i><p>
+                    <ul class="c-navDropdown__menu" data-dropdown="products">
+                        <li>
+                            <a class="c-navDropdown__link" href="./buycompost.html">Buy Compost</a>
+                        </li>
+                        <li>
+                            <a class="c-navDropdown__link" href="./membership.html">Become a Member</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="c-navDropdown" data-nav="about">
+                    <p class="c-topNav__item">About <i class="material-icons">keyboard_arrow_down</i><p>
+                    <ul class="c-navDropdown__menu" data-dropdown="about">
+                        <li>
+                            <a class="c-navDropdown__link" href="./livingsoil.html">What is Living Soil?</a>
+                        </li>
+                        <li>
+                            <a class="c-navDropdown__link" href="./foodwaste.html">The Scourge of Foodwaste</a>
+                        </li>
+                        <li>
+                            <a class="c-navDropdown__link" href="./ourteam.html">Our Team</a>
+                        </li>   
+                        <li>
+                            <a class="c-navDropdown__link" href="./ourpartners.html">Our Partners</a>
+                        </li>                      
+                    </ul>
+                </li>
                 <li class="c-topNav__item">Contact</li>
                 <li class="c-topNav__item"><a class="c-buttonShape--orange">Free Waste Audit</a></li>
             </ul>
         </nav>
-        <main class="topLocked">
+        <main class="">
             <div class="c-topBanner">
                 <div class="l-oneCol--960">
-                    <h1 class="c-topBanner__head"><span>Compost Collection</span></h1>
+                    <h1 class="c-topBanner__head"><span>Commercial Collection</span></h1>
                 </div>
             </div>
             <nav class="c-subNav">
@@ -122,44 +163,44 @@
                         <img src="img/partners/clients_heinens.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_ocb.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_ocb.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_gala.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_gala.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_marigold.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_marigold.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_first_baptist.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_first_baptist.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_phoenix.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_phoenix.jpg" />
                     </div>                      
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_southwest_general.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_southwest_general.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_rosetta.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_rosetta.jpg" />
                     </div>  
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_spice.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_spice.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_the_plum.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_the_plum.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_thriving_communities_institute.jpg" />
+                        <img class="swiper-lazy" src="img/partners/clients_thriving_communities_institute.jpg" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/partners/clients_tri-c.jpg" />
-                    </div>                        
-                    <div class="swiper-slide">
-                        <img src="img/partners/clients_university_hospitals.jpg" />
-                    </div>  
+                        <img class="swiper-lazy" src="img/partners/clients_tri-c.jpg" />
+                    </div>                          
                     <div class="swiper-slide">
                         <img src="img/partners/clients_ursuline.jpg" />
                     </div>                          
+                    <div class="swiper-slide">
+                        <img src="img/partners/clients_university_hospitals.jpg" />
+                    </div>
                     <div class="swiper-slide">
                         <img src="img/partners/clients_vintage_tea.jpg" />
                     </div> 
@@ -249,6 +290,7 @@
             autoplay: 1500,
             autoplayDisableOnInteraction: true,
             slidesPerView: 6,
+            lazy: true,
             grabCursor: true,
             breakpoints: {
                 800: {

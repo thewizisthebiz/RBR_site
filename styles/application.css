@@ -931,7 +931,8 @@ a {
   background-size: cover; }
 
 .c-navDropdown {
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 .c-navDropdown:hover {
   cursor: pointer; }
