@@ -15,14 +15,19 @@
 
 .c-billboard__sub{
 	@extend %ac-display2;
-	margin-bottom: unit(30);
-	padding-bottom: unit(42);
-	border-bottom: rem(3) solid $color--red;
-
+	margin-bottom: unit(18);
 	@media screen and (min-width: $tablet--sm){
 		width: 100%;
 	}	
 }
+
+.c-billboard__sub + .c-billboard__sub{
+	margin-bottom: unit(30);
+	padding-bottom: unit(42);
+
+		border-bottom: rem(3) solid $color--red;
+	}
+
 
 .c-billboard__text{
 	@extend %ac-text--large;
@@ -40,7 +45,7 @@
 .c-billboard__columns{
 	margin: unit(84) 0;
 	padding-bottom: unit(96);
-	border-bottom: rem(3) solid $color--offBlack;
+	//border-bottom: rem(3) solid $color--offBlack;
 }
 
 .c-billboard__col{
