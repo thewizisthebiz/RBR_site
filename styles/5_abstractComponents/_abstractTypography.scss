@@ -1,28 +1,77 @@
 %ac-display4{
-	font-size: $unit--12;
-	line-height: calc(#{$unit--1}*13);
+	font-size: rem(36);
+	line-height: unit(42);
 	font-weight: 600;
+	
+	@media screen and (min-width: $tablet--sm){
+		font-size: rem(66);
+		line-height: unit(72);
+		font-weight: 600;		
+	}
 }
 
 %ac-display3{
-	font-size: $unit--7;
-	line-height: $unit--12;
-	font-weight: 600;
+	font-size: rem(30);
+	line-height: unit(36);
+	font-weight: 400;
+
+	@media screen and (min-width: $tablet--sm){
+		font-size: rem(42);
+		line-height: unit(54);
+		font-weight: 400;	
+	}
 }
 
 %ac-display2{
-	font-size: $unit--6;
-	line-height: $unit--7;
+	font-size: rem(24);
+	line-height: unit(30);
 	font-weight: 400;
+
+	@media screen and (min-width: $tablet--sm){
+		font-size: rem(36);
+		line-height: unit(48);
+		font-weight: 400;	
+	}
 }
 
 %ac-display1{
-	font-size: $unit--4;
-	line-height: $unit--5;
+	font-size: rem(24);
+	line-height: unit(30);
+	font-weight: 400;
+}
+
+%ac-title2{
+	font-size: rem(20);
+	line-height: unit(24);
 	font-weight: 600;
 }
 
-%ac-text2{
-	font-size: 1.125rem;
-	line-height: $unit--4;
+%ac-title1{
+	font-size: rem(16);
+	line-height: unit(18);
+	font-weight: 600;
+}
+
+%ac-text--large{
+	font-size: rem(18);
+	line-height: unit(24);
+	font-weight: 400;
+}
+
+%ac-text{
+	font-size: rem(16);
+	line-height: unit(24);
+	font-weight: 400;
+}
+
+%ac-text--small{
+	font-size: rem(14);
+	line-height: unit(18);
+	font-weight: 400;
+}
+
+%ac-caption{
+	font-size: rem(12);
+	line-height: unit(12);
+	font-weight: 400;
 }

@@ -1,0 +1,24 @@
+.c-disclaimer{
+	margin-bottom: unit(84);
+	background-color: $color--grey4;
+	padding: unit(60) unit(12);
+
+	@media screen and (min-width: $tablet--sm){
+		padding: unit(72);
+	}	
+}
+
+.c-disclaimer__star{
+	@extend %ac-display4;
+	font-weight: 600;
+	line-height: unit(18);
+	color: $color--red;	
+
+	@media screen and (min-width: $tablet--sm){
+		line-height: unit(36);
+	}
+}
+
+.c-disclaimer__text{
+	@extend %ac-text;
+}

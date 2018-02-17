@@ -1,8 +1,12 @@
+//@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,500,700');
+
 @import "./0_settings/_settings.scss";
 
 @import "./1_tools/_border-radius.scss";
 @import "./1_tools/_clearfix.scss";
 @import "./1_tools/_imgPath.scss";
+@import "./1_tools/_rem.scss";
+@import "./1_tools/_unit.scss";
 
 @import "./2_resets/_normalize.scss";
 @import "./2_resets/_reset.scss";
@@ -12,22 +16,14 @@
 @import "./4_layouts/_layouts.scss";
 
 @import "./5_abstractComponents/_abstractTypography.scss";
+@import "./5_abstractComponents/_abstractButton.scss";
 
+@import "./6_components/_button.scss";
 @import "./6_components/_topNav.scss";
-@import "./6_components/_homeTopImage.scss";
 @import "./6_components/_appliedTypography.scss";
-@import "./6_components/_homeLinkList.scss";
-@import "./6_components/_landfillBottom.scss";
-@import "./6_components/_topBanner.scss";
-@import "./6_components/_subNav.scss";
-@import "./6_components/_featureBlock.scss";
 @import "./6_components/_swiper.scss";
-@import "./6_components/_measurableResults.scss";
-@import "./6_components/_testimonial.scss";
-@import "./6_components/_footer.scss";
-@import "./6_components/_buttonShape.scss";
-@import "./6_components/_tryAWeek.scss";
-@import "./6_components/_compostBillboard.scss";
 @import "./6_components/_navDropdown.scss";
+@import "./6_components/_billboard.scss";
+@import "./6_components/_disclaimer.scss";
 
 @import "./_scratch.scss";

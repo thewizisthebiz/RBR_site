@@ -1,0 +1,97 @@
+.c-billboard{
+	padding: 0 unit(12);
+}
+
+.c-billboard__title{
+	@extend %ac-display4;
+	margin-bottom: unit(30);
+}
+
+.c-billboard__title--red{
+	@extend %ac-display4;
+	color: $color--red;
+	vertical-align: baseline;
+}
+
+.c-billboard__sub{
+	@extend %ac-display2;
+	margin-bottom: unit(30);
+	padding-bottom: unit(42);
+	border-bottom: rem(3) solid $color--red;
+
+	@media screen and (min-width: $tablet--sm){
+		width: 100%;
+	}	
+}
+
+.c-billboard__text{
+	@extend %ac-text--large;
+	font-weight: 600;
+
+	@media screen and (min-width: $tablet--sm){
+		width: 50%;
+	}	
+}
+
+.c-billboard__text + .c-billboard__text{
+	margin-top: unit(12);
+}
+
+.c-billboard__columns{
+	margin: unit(84) 0;
+	padding-bottom: unit(96);
+	border-bottom: rem(3) solid $color--offBlack;
+}
+
+.c-billboard__col{
+	padding-right: 0;
+	
+	@media screen and (min-width: $tablet--sm){
+		padding-right: unit(72);
+	}
+}
+
+.c-billboard__col + .c-billboard__col{
+	margin-top: unit(36);
+
+	@media screen and (min-width: $tablet--sm){
+		margin-top: 0;
+	}
+}
+
+.c-billboard__colTitle{
+	@extend %ac-title2;
+	margin-bottom: unit(18);
+}
+
+.c-billboard__colItem{
+	margin-bottom: unit(24);
+}
+
+.c-billboard__colSub{
+	@extend %ac-title1;
+	margin-bottom: unit(6);
+}
+
+.c-billboard__colText{
+	@extend %ac-text;
+}
+
+.c-billboard__colText a{
+	color: $color--red;
+	background-color: transparentize($color--red, 0.9);
+	margin: 0;
+	padding: 0;
+	padding-bottom: rem(3);
+	line-height: unit(18);
+	vertical-align: baseline;
+	font-weight: 600;
+
+	&:hover{
+		border-bottom: rem(1.5) solid $color--red;
+	}
+}
+
+.c-billboard__colText + .c-billboard__colText{
+	margin-top: unit(6);
+}

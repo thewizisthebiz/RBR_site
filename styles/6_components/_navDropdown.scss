@@ -24,14 +24,10 @@
 }
 
 .c-navDropdown__link{
-	font-size: 0.875rem;
+	font-size: rem(14);
 	display: block;
 	cursor: pointer;
 	white-space: nowrap;
 	width: 100%;
-	padding: $unit--2;
-
-	&:hover{
-		background-color: $color--greenPale;
-	}
+	padding: unit(12);
 }

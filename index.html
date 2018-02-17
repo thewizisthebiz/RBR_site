@@ -4,9 +4,18 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113980668-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-113980668-1');
+        </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Rust Belt Riders</title>
+        <title>Design Breakfast</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/application.css">
@@ -19,163 +28,72 @@
         <!--[if lt IE 8]>   
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <img class="c-homeTopImage" src="./img/homeTop.jpg" />
-        <div class="c-topNav__toggle">
-            <span class="c-topNav__toggleLine"></span>
-            <span class="c-topNav__toggleLine"></span>
-            <span class="c-topNav__toggleLine last"></span>
-        </div>
         <nav class="c-topNav">
-            <ul class="l-oneCol--1440 c-topNav__list">
-                <li class="c-topNav__logoWrap">
-                    <a href="./index.html">
-                        <img class="c-topNav__logoImage" src="./img/rustbeltriders_home.png" />
-                    </a>
+            <a class="c-topNav__home">Design Breakfast</a>
+            <ul class="c-topNav__list">
+                <li class="c-topNav__item">
+                    <a class="c-topNav__button" target="_blank" href="http://eepurl.com/dah3Zv">Join Mailing List</a>
                 </li>
-                <li class="c-navDropdown" data-nav="services">
-                    <p class="c-topNav__item">Services <i class="material-icons">keyboard_arrow_down</i><p>
-                    <ul class="c-navDropdown__menu" data-dropdown="services">
-                        <li>
-                            <a class="c-navDropdown__link" href="./commercialcollection.html">Commercial Collection</a>
-                        </li>
-                        <li>
-                            <a class="c-navDropdown__link" href="./curbside.html">Curbside Pick-up</a>
-                        </li>
-                        <li>
-                            <a class="c-navDropdown__link" href="./eventsandeducation.html">Events &amp; Education</a>
-                        </li>                        
-                    </ul>
-                </li>
-                <li class="c-navDropdown" data-nav="products">
-                    <p class="c-topNav__item">Products <i class="material-icons">keyboard_arrow_down</i><p>
-                    <ul class="c-navDropdown__menu" data-dropdown="products">
-                        <li>
-                            <a class="c-navDropdown__link" href="./buycompost.html">Buy Compost</a>
-                        </li>
-                        <li>
-                            <a class="c-navDropdown__link" href="./membership.html">Become a Member</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="c-navDropdown" data-nav="about">
-                    <p class="c-topNav__item">About <i class="material-icons">keyboard_arrow_down</i><p>
-                    <ul class="c-navDropdown__menu" data-dropdown="about">
-                        <li>
-                            <a class="c-navDropdown__link" href="./livingsoil.html">What is Living Soil?</a>
-                        </li>
-                        <li>
-                            <a class="c-navDropdown__link" href="./foodwaste.html">The Scourge of Foodwaste</a>
-                        </li>
-                        <li>
-                            <a class="c-navDropdown__link" href="./ourteam.html">Our Team</a>
-                        </li>   
-                        <li>
-                            <a class="c-navDropdown__link" href="./ourpartners.html">Our Partners</a>
-                        </li>                      
-                    </ul>
-                </li>
-                <li class="c-topNav__item">Contact</li>
-                <li class="c-topNav__item"><a class="c-buttonShape--orange">Free Waste Audit</a></li>
             </ul>
         </nav>
-        <main class="l-oneCol--960">
-            <h1 class="c-homeDisplay4">Let's transform foodwaste back into food.</h1>
-            <h2 class="c-homeDisplay2">We're closing the loop of local food through compost collection services and the production of living soil.</h2>
-            <div class="c-homeLists">
-            <section class="l-twoCol">
-                <ul class="c-homeLinkList">
-                    <li>
-                        <h3 class="c-homeDisplay1">Information</h3>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Compost Collection Service
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Request a Free Waste Audit
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Events, Workshops, Etc.
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            The Scourge of Foodwaste
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            What Is Living Soil?
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Our Team
-                        </a>
-                    </li>
-                </ul>
-                <ul class="c-homeLinkList">
-                    <li>
-                        <h3 class="c-homeDisplay1">Products</h3>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Living soil, Compost, &amp; Other Products
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Community Supported Compost Membership
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-homeLinkList__item" href="#">
-                            Eat &amp; Drink with Our Partners
-                        </a>
-                    </li>
-                </ul>
-            </section>  
-            </div>         
-        </main>
-        <footer>
-            <section class="c-landfillBottom">
-                <img class="c-landfillBottom__image" src="./img/landfill_2_dith.png"/>
-                <div class="c-landfillBottom__color"></div>
-                <h5 class="c-landfillBottom__feedText"><span>Feed People. Not Landfills.</span></h5>
-            </section>
-            <section class="c-footerContact">
-                <div class="l-oneCol--960">
-                <ul class="c-footerSocialList">
-                    <li class="c-footerSocialList__socialIcon">
-                        <a target="_blank" href="https://twitter.com/rustbeltriders">
-                            <img class="c-footerSocialIcon" src="./img/rustbelt_riders_social_tw.svg"/>
-                        </a>
-                    </li>
-                    <li class="c-footerSocialList__socialIcon">
-                        <a target="_blank" href="https://instagram.com/rustbeltriders">
-                            <img class="c-footerSocialIcon" src="./img/rustbelt_riders_social_fb.svg"/>
-                        </a>
-                    </li>
-                    <li class="c-footerSocialList__socialIcon">
-                        <a target="_blank" href="https://www.facebook.com/RustBeltRidersCLE">
-                            <img class="c-footerSocialIcon" src="./img/rustbelt_riders_social_ig.svg"/>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="c-footerPhoneEmailStreet">
-                    <li class="c-footerPhoneEmailStreet__item"><span>Phone</span> 216-800-4651</li>
-                    <li class="c-footerPhoneEmailStreet__item"><span>Email</span> info@rustbeltriders.com</li>
-                    <li class="c-footerPhoneEmailStreet__item"><span>Street</span> 5401 Hamilton Ave. Cleveland, OH 44114</li>
-                </ul>
+        <div class="l-oneCol--1200">
+            <main class="c-billboard">
+                <h1 class="c-billboard__title">A cross-sectional<a href="#star" class="c-billboard__title--red">*</a> design group in Cleveland, OH.</h1>
+                <h2 class="c-billboard__sub">We're working to expand the adoption and application of design in our city by sharing how it can enrich the thinking and behavior of  organizations as well as individuals.</h2>
+<!-- 
+                <p class="c-billboard__text">Existing simultaneously as a practice, a process and an approach, design helps describe problems, uncover opportunities, reduce risk, and generate value.</p>
+                <p class="c-billboard__text">Design can help build and better  communities, but not without you.</p>
+ -->
+                <div class="c-billboard__columns">
+                    <ul class="l-twoCol">
+                        <li class="c-billboard__col">
+                            <h3 class="c-billboard__colTitle">Conversation</h3>
+                            <ul class="c-billboard__colList">
+                                <li class="c-billboard__colItem">
+                                    <h4 class="c-billboard__colSub">The Breakfast</h4> 
+                                    <p class="c-billboard__colText">Our original flavor.</p>
+                                    <p class="c-billboard__colText">8AM, the third Friday of every month, we get together for coffee and a bit of conversation. We cover updates on the group's work but do enjoy stretching our brains a bit—the discussions do tend to range!</p>
+                                    <p class="c-billboard__colText">Whether you consider yourself a designer, or are looking to learn more, please feel encouraged to join. Bring a question, a book, a difficulty—or just your thoughts. We look forward to seeing you, bright and early.</p>
+                                    <p class="c-billboard__colText"><a  target="_blank" href="http://eepurl.com/dah3Zv">Jump on our mailing list</a> for updates on each month's location</p>
+                                </li>
+                                <li class="c-billboard__colItem">
+                                    <h4 class="c-billboard__colSub">Happy Hour</h4> 
+                                    <p class="c-billboard__colText">Apparently people like to sleep in? Jam that mailing list button for more details as we figure this out.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="c-billboard__col">
+                            <h3 class="c-billboard__colTitle">Demonstration</h3>
+                            <ul class="c-billboard__colList">
+                                <li class="c-billboard__colItem">
+                                    <h4 class="c-billboard__colSub">Engagements</h4> 
+                                    <p class="c-billboard__colText">We  work with groups interested in expanding or exploring the role of design at their organizations.</p>
+                                </li>
+                                <li class="c-billboard__colItem">
+                                    <h4 class="c-billboard__colSub">Stories</h3> 
+                                    <p class="c-billboard__colText">We collect local stories that typify how and where design can be useful.</p>
+                                </li>
+                                <li class="c-billboard__colItem">
+                                    <h4 class="c-billboard__colSub">Curriculum</h3> 
+                                    <p class="c-billboard__colText">We compile free/editable coursework focused on the essential ideas and behaviors of design.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-            </section>
+                <section class="c-disclaimer" id="star">
+                    <h3 class="c-disclaimer__star">*</h3>
+                    <h3 class="c-title1">Cross-sectional? Wha?</h3>
+                    <p class="c-disclaimer__text">We're interested in what people engaged in design—whatever shape it may take—have in common. We'd like to span across, and beyond, professional organizations. Even if you're not "a designer", you have a spot at Design Breakfast.</p>
+                </section>
+            </main>
+        </div>
+
+        <footer class="l-oneCol--1440">
+            <p>It's a breakfast congregation of and about design.</p>
         </footer>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
         <script src="js/main.js"></script>
         <script>
@@ -191,23 +109,14 @@
         //      'hitCallback': function(){document.location = url;}
         //    });
         // }
-        var trackOutboundLink = function(category, url) {
-           ga('send', 'event', category, 'click', url, {
-             'transport': 'beacon',
-             'hitCallback': function(){document.location = url;}
-           });
-        }
+
+        // var trackOutboundLink = function(category, url) {
+        //    ga('send', 'event', category, 'click', url, {
+        //      'transport': 'beacon',
+        //      'hitCallback': function(){document.location = url;}
+        //    });
+        // }
         </script>
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-80128103-1', 'auto');
-          ga('send', 'pageview');
-
-        </script>
     </body>
 </html>

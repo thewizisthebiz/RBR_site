@@ -1,24 +1,36 @@
-.c-homeDisplay4{
+.c-display4{
 	@extend %ac-display4;
-	padding: $unit--9 0;
-	border-bottom: calc(#{$unit--1} * 1.5) solid $color--greenBright;
 }
 
-.c-homeDisplay2{
-	@extend %ac-display2;
-	margin: $unit--9 0;
-}
-
-.c-homeDisplay1{
-	@extend %ac-display1;
-	padding-bottom: $unit--1;
-	border-bottom: calc(#{$unit--1}*0.75) solid $color--greenBright;
-	display: inline-block;
-}
-
-.c-bigIntro{
+.c-display3{
 	@extend %ac-display3;
-	padding: 0 0 $unit--4 0;
-	margin: calc(#{$unit--6}*3) 0;
-	border-bottom: $unit--1 solid $color--greenBright;
+}
+
+.c-display2{
+	@extend %ac-display2;
+}
+
+.c-display1{
+	@extend %ac-display1;
+}
+
+.c-title2{
+	@extend %ac-title2;
+}
+
+.c-title1{
+	@extend %ac-title1;
+	margin-bottom: unit(6);
+}
+
+.c-text--large{
+	@extend %ac-text--large;
+}
+
+.c-text{
+	@extend %ac-text;
+}
+
+.c-text--small{
+	@extend %ac-text--small;
 }

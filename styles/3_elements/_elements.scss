@@ -1,10 +1,25 @@
-footer{
-
+html{
+	//background-color: rgb(220,80,40);
+	font-family: 'Work Sans';
+	font-family: 'Helvetica Neue';
+	color: $color--offBlack;
+	// background-image: url('../img/squig.svg');
+	// background-position: center;
+	// background-size: cover;
 }
 
-@media screen and (min-width: $tablet--sm){
-	
-	main.topLocked{
-		margin-top: $unit--12;
-	}
+main{
+	margin-top: unit(120);
+	min-height: calc(100vh - #{unit(180)});
+}
+
+footer{
+	background-color: $color--offBlack;
+	padding: unit(48) unit(12);
+	border-top: rem(3) solid $color--red;
+}
+
+ul{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }

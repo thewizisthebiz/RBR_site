@@ -1,0 +1,7 @@
+@function unit($multiplier){
+	@if($multiplier % 6 == 0){
+		@return $unit * ($multiplier / 6);
+	}@else{
+		@error 'Sorry, but #{$multiplier} is not a valid spacing value';
+	}
+}
